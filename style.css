@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto  ;
+}
+
+.container{
+    background-color: rgb(118, 118, 246);
+    width: 350px;
+    height: 550px;
+    padding: 100px;
+    border-radius: 10%;
+    margin-left: 90ch;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.text{
+    font-size: 25px;
+}
+.m_rasm img{
+    width: 300px;
+    
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    z-index: 1000;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 500;
+  }
+p {
+    font-size: 40px;
+}
+.sidebar {
+    position: sticky;
+    top: 60px;
+    width: 200px;
+    background-color: lightyellow;
+    padding: 15px;
+    height: 300px;
+  }
